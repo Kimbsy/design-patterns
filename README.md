@@ -1,2 +1,5 @@
 # design-patterns
-about time I learnt me some of this.
+
+Gonna teach myself about design patterns (using Java).
+
+[Using this](http://www.tutorialspoint.com/design_pattern/index.htm)
