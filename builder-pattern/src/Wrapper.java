@@ -1,7 +1,7 @@
-public class Bottle implements Packing {
+public class Wrapper implements Packing {
 
-  @override
+  @Override
   public String pack() {
-    return "Bottle";
+    return "Wrapper";
   }
 }

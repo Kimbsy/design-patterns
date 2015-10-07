@@ -1,11 +1,11 @@
 public class ChickenBurger extends Burger {
 
-  @override
+  @Override
   public float price() {
     return 50.5f;
   }
 
-  @override
+  @Override
   public String name() {
     return "Chicken Burger";
   }

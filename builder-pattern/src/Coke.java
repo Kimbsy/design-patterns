@@ -1,11 +1,10 @@
 public class Coke extends ColdDrink {
 
-  @override
+  @Override
   public float price() {
     return 30.0f;
   }
 
-  @override
   public String name() {
     return "Coke";
   }

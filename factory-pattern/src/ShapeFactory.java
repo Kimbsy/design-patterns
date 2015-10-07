@@ -14,7 +14,7 @@ public class ShapeFactory {
       return new Rectangle();
 
     } else if (shapeType.equalsIgnoreCase("SQUARE")) {
-      return new Square()l
+      return new Square();
     }
 
     return null;

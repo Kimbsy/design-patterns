@@ -1,11 +1,11 @@
 public class ColorFactory extends AbstractFactory {
 
-  @override
-  Color getShape(String shapeType) {
+  @Override
+  public Shape getShape(String shapeType) {
     return null;
   }
 
-  @override
+  @Override
   public Color getColor(String color) {
 
     if (color == null) {

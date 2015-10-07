@@ -1,7 +1,7 @@
 public class Blue implements Color {
   
-  @override
+  @Override
   public void fill() {
-    System.out.println("Inside Blue::fil() method.")
+    System.out.println("Inside Blue::fil() method.");
   }  
 }

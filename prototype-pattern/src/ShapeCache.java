@@ -12,7 +12,7 @@ public class ShapeCache {
   // for each shape run database query and create shape
   // shapeMap.put(shapeKey, shape)
   
-  public static void loadcache() {
+  public static void loadCache() {
     Circle circle = new Circle();
     circle.setId("1");
     shapeMap.put(circle.getId(), circle);

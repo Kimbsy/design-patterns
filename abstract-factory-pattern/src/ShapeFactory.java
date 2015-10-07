@@ -1,6 +1,6 @@
 public class ShapeFactory extends AbstractFactory {
 
-  @override
+  @Override
   public Shape getShape(String shapeType) {
 
     if (shapeType == null) {
@@ -11,7 +11,7 @@ public class ShapeFactory extends AbstractFactory {
       return new Circle();
 
     } else if (shapeType.equalsIgnoreCase("RECTANGLE")) {
-      return new Rectangel();
+      return new Rectangle();
 
     } else if (shapeType.equalsIgnoreCase("SQUARE")) {
       return new Square();
@@ -20,7 +20,7 @@ public class ShapeFactory extends AbstractFactory {
     return null;
   }
 
-  @override
+  @Override
   Color getColor(String color) {
     return null;
   }

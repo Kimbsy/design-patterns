@@ -2,7 +2,7 @@ public class AudioPlayer implements MediaPlayer {
 
   MediaAdapter mediaAdapter;
 
-  @override
+  @Override
   public void play(String audioType, String fileName) {
 
     // inbuilt support to play mp3 music files

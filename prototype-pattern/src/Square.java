@@ -4,8 +4,8 @@ public class Square extends Shape {
     type = "Square";
   }
 
-  @override
+  @Override
   public void draw() {
-    System.out.println("Inside Square::draw() method.")
+    System.out.println("Inside Square::draw() method.");
   }
 }

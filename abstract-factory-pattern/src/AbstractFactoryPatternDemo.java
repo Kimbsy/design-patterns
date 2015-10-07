@@ -17,7 +17,7 @@ public class AbstractFactoryPatternDemo {
     // get an object of Sape Square
     Shape shape3 = shapeFactory.getShape("SQUARE");
     // call draw method of Shape Square
-    shaoe3.draw();
+    shape3.draw();
 
     // get Color factory
     AbstractFactory colorFactory = FactoryProducer.getFactory("COLOR");
@@ -28,12 +28,12 @@ public class AbstractFactoryPatternDemo {
     color1.fill();
 
     // get an object of Color Green
-    color2 = colorFactory.getColor("GREEN");
+    Color color2 = colorFactory.getColor("GREEN");
     // call fill method of Color Green
     color2.fill();
 
     // get an object of Color Blue
-    color3 = colorFactory.getCOLOR("BLUE");
+    Color color3 = colorFactory.getColor("BLUE");
     // call fill method of Color Blue
     color3.fill();
   }
